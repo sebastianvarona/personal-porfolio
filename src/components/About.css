@@ -1,0 +1,11 @@
+.splide__slide {
+  transition: all linear 0.5s;
+  opacity: 30%;
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1);
+}
+.is-active {
+  opacity: 100% !important;
+  -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(0);
+}
