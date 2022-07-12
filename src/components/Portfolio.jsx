@@ -46,7 +46,7 @@ export default function Portfolio() {
               pauseOnHover: false,
               pauseOnFocus: false,
               rewind: false,
-              speed: 0.5,
+              speed: 1,
             },
           }}
           extensions={{ AutoScroll }}
