@@ -22,7 +22,7 @@ const projects = [
     link: 'https://github.com/sebastianvarona/piazza-italia',
     preview_link: 'https://piazza-italia.vercel.app/',
     img: 'https://user-images.githubusercontent.com/77818407/178594792-5f91ea7d-2246-413d-b873-16fe84cc93f8.png',
-    alt: 'Piazza Italia Next.js - Redux',
+    alt: 'Piazza Italia (Next.js - Redux)',
   },
 ];
 
@@ -46,7 +46,7 @@ export default function Portfolio() {
               pauseOnHover: false,
               pauseOnFocus: false,
               rewind: false,
-              speed: 1,
+              speed: 2,
             },
           }}
           extensions={{ AutoScroll }}
@@ -77,7 +77,7 @@ export function PortfolioItem({ link, preview_link, img, alt }) {
         rel="noopener noreferrer"
       >
         <img src={img} alt={alt} />
-        <div className="absolute top-0 left-0 w-full h-full opacity-0 bg-black/40 backdrop-blur-sm hover:opacity-100 flex justify-center items-center font-bold underline">
+        <div className="absolute top-0 left-0 w-full h-full opacity-0 bg-black/40 backdrop-blur-sm hover:opacity-100 flex justify-center items-center font-bold underline transition-all">
           <span className="bg-white py-1 px-4 text-black">Preview</span>
         </div>
       </a>
