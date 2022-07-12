@@ -18,6 +18,12 @@ const projects = [
     img: 'https://user-images.githubusercontent.com/77818407/178220892-e460c7df-db86-44f2-b5b4-44cdad911e1f.png',
     alt: 'Redux Counter Apllication',
   },
+  {
+    link: 'https://github.com/sebastianvarona/piazza-italia',
+    preview_link: 'https://piazza-italia.vercel.app/',
+    img: 'https://user-images.githubusercontent.com/77818407/178594792-5f91ea7d-2246-413d-b873-16fe84cc93f8.png',
+    alt: 'Piazza Italia Next.js - Redux',
+  },
 ];
 
 export default function Portfolio() {
