@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Links() {
   return (
-    <div className="fixed bottom-0 right-0 mr-24 mb-8 z-10 flex gap-2 items-center">
+    <div className="fixed bottom-0 right-0 mr-8 md:mr-24 mb-8 z-10 flex gap-2 items-center">
       <a
         className="opacity-50 hover:opacity-100 transition"
         target={'_blank'}

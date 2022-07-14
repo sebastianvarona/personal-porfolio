@@ -28,11 +28,11 @@ const projects = [
 
 export default function Portfolio() {
   return (
-    <div className="max-w-7xl mx-auto h-full flex flex-col justify-center gap-12">
-      <h2 className="text-7xl text-center font-semibold text-yellow-400">
+    <div className="max-w-7xl mx-auto h-screen md:h-full flex flex-col justify-center gap-12">
+      <h2 className="text-7xl text-center font-semibold text-yellow-400 mt-36 md:m-0">
         Recent Projects
       </h2>
-      <div id="portfolio_slide">
+      <div id="portfolio_slide_md" className="hidden md:block mb-36 md:m-0">
         <Splide
           options={{
             type: 'loop',
@@ -41,6 +41,39 @@ export default function Portfolio() {
             arrows: true,
             pagination: true,
             perPage: 2,
+            focus: 'center',
+            autoScroll: {
+              pauseOnHover: false,
+              pauseOnFocus: false,
+              rewind: false,
+              speed: 2,
+            },
+          }}
+          extensions={{ AutoScroll }}
+        >
+          {projects.map((project) => (
+            <SplideSlide>
+              <PortfolioItem
+                link={project.link}
+                preview_link={project.preview_link}
+                img={project.img}
+                alt={project.alt}
+              />
+            </SplideSlide>
+          ))}
+        </Splide>
+      </div>
+      <div
+        id="portfolio_slide_mopbile"
+        className="block md:hidden mb-36 md:m-0"
+      >
+        <Splide
+          options={{
+            type: 'loop',
+            drag: 'free',
+            arrows: true,
+            pagination: true,
+            perPage: 1,
             focus: 'center',
             autoScroll: {
               pauseOnHover: false,

@@ -18,30 +18,40 @@ function App() {
         <Navbar />
       </header>
       <main>
-        <Splide
-          options={{
-            direction: 'ttb',
-            arrows: false,
-            height: '100vh',
-            wheel: true,
-          }}
-        >
-          <SplideSlide>
-            <Banner />
-          </SplideSlide>
-          <SplideSlide>
-            <About />
-          </SplideSlide>
-          <SplideSlide>
-            <Experience />
-          </SplideSlide>
-          <SplideSlide>
-            <Portfolio />
-          </SplideSlide>
-          <SplideSlide>
-            <Contact />
-          </SplideSlide>
-        </Splide>
+        <div className="hidden md:block">
+          <Splide
+            options={{
+              direction: 'ttb',
+              arrows: false,
+              height: '100vh',
+              wheel: true,
+            }}
+          >
+            <SplideSlide>
+              <Banner />
+            </SplideSlide>
+            <SplideSlide>
+              <About />
+            </SplideSlide>
+            <SplideSlide>
+              <Experience />
+            </SplideSlide>
+            <SplideSlide>
+              <Portfolio />
+            </SplideSlide>
+            <SplideSlide>
+              <Contact />
+            </SplideSlide>
+          </Splide>
+        </div>
+        <div className="block md:hidden">
+          <Banner />
+          <About />
+          <Experience />
+          <Portfolio />
+
+          <Contact />
+        </div>
       </main>
     </div>
   );

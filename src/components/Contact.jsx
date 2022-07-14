@@ -2,18 +2,18 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div className="max-w-7xl mx-auto h-full flex flex-col justify-center gap-12">
+    <div className="max-w-7xl mx-auto px-4 md:px-8 xl:px-0 h-screen md:h-full flex flex-col justify-center gap-12">
       <h2 className="text-7xl text-center font-semibold text-emerald-400">
         Let's Get In Touch
       </h2>
       <p className="text-xl font-light text-center">
         Feel free to contact me if you have any questions or any job offers.
       </p>
-      <div className="flex justify-center items-center gap-10 p-8">
+      <div className="flex flex-col md:flex-row justify-center items-center gap-10 p-8">
         <a
           href="https://www.linkedin.com/in/juansebasva1201/?locale=en_US"
           target={'blank'}
-          className="flex items-center gap-2 bg-blue-500 hover:bg-blue-600 transition-colors py-2 px-6 rounded-2xl"
+          className="flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-600 transition-colors py-2 px-6 rounded-2xl"
         >
           Via LinkedIn{' '}
           <svg

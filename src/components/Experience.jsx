@@ -3,8 +3,8 @@ import React from 'react';
 export default function Experience() {
   return (
     <section className="bg-black/50 h-full">
-      <div className="max-w-7xl mx-auto h-full flex flex-col justify-center gap-12">
-        <h2 className="text-7xl text-center font-semibold text-purple-400">
+      <div className="max-w-7xl mx-auto px-4 md:px-8 xl:px-0 h-full flex flex-col justify-center gap-12">
+        <h2 className="text-7xl text-center font-semibold text-purple-400 mt-36 md:m-0">
           My Experience
         </h2>
         <p className="text-xl font-light text-center">
@@ -12,7 +12,7 @@ export default function Experience() {
           <br />
           working in a team and I adapt quickly to new environments.
         </p>
-        <div className="flex flex-col gap-2 p-8 rounded-3xl bg-white/20">
+        <div className="flex flex-col gap-2 p-8 rounded-3xl bg-white/20 mb-36 md:m-0">
           <h3 className="text-3xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-cyan-500 to-yellow-500">
             Full Stack Developer
           </h3>
