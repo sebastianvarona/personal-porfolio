@@ -9,3 +9,7 @@
   -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
   filter: grayscale(0);
 }
+
+#tech_carousel_mobille {
+  pointer-events: none;
+}
