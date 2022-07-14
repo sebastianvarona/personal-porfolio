@@ -29,7 +29,7 @@ const projects = [
 export default function Portfolio() {
   return (
     <div className="max-w-7xl mx-auto h-screen md:h-full flex flex-col justify-center gap-12">
-      <h2 className="text-7xl text-center font-semibold text-yellow-400 mt-36 md:m-0">
+      <h2 className="text-6xl md:text-7xl text-center font-semibold text-yellow-400 mt-36 md:m-0">
         Recent Projects
       </h2>
       <div id="portfolio_slide_md" className="hidden md:block mb-36 md:m-0">
