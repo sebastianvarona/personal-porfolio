@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from '../public/logo.svg';
-import curriculum from '../public/Resume - J. Sebastián Varona.pdf';
+import curriculum from '../public/Resume.pdf';
 
 export default function Navbar() {
   return (
