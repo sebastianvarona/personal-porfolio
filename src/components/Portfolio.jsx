@@ -13,16 +13,22 @@ const projects = [
     alt: 'Personal Full Stack Tutorials & Articles Blog',
   },
   {
+    link: 'https://github.com/sebastianvarona/frontend-iqthink',
+    preview_link: 'https://frontend-iqthink.vercel.app/',
+    img: 'https://user-images.githubusercontent.com/77818407/183471931-71fb4b0f-a0ae-432c-96fa-fecac3d27120.png',
+    alt: "Gandalf's Book (React.js - Redux)",
+  },
+  {
+    link: 'https://github.com/sebastianvarona/frontend-iqthink',
+    preview_link: 'https://piazza-italia.vercel.app/',
+    img: 'https://user-images.githubusercontent.com/77818407/178594792-5f91ea7d-2246-413d-b873-16fe84cc93f8.png',
+    alt: 'Piazza Italia (Next.js - Redux)',
+  },
+  {
     link: 'https://github.com/sebastianvarona/redux_counter',
     preview_link: 'https://sebastianvarona.github.io/redux_counter/',
     img: 'https://user-images.githubusercontent.com/77818407/178220892-e460c7df-db86-44f2-b5b4-44cdad911e1f.png',
     alt: 'Redux Counter Apllication',
-  },
-  {
-    link: 'https://github.com/sebastianvarona/piazza-italia',
-    preview_link: 'https://piazza-italia.vercel.app/',
-    img: 'https://user-images.githubusercontent.com/77818407/178594792-5f91ea7d-2246-413d-b873-16fe84cc93f8.png',
-    alt: 'Piazza Italia (Next.js - Redux)',
   },
 ];
 
@@ -73,13 +79,13 @@ export default function Portfolio() {
             drag: 'free',
             arrows: true,
             pagination: true,
-            perPage: 1,
+            perPage: 2,
             focus: 'center',
             autoScroll: {
               pauseOnHover: false,
               pauseOnFocus: false,
               rewind: false,
-              speed: 2,
+              speed: 1,
             },
           }}
           extensions={{ AutoScroll }}
@@ -114,9 +120,11 @@ export function PortfolioItem({ link, preview_link, img, alt }) {
           <span className="bg-white py-1 px-4 text-black">Preview</span>
         </div>
       </a>
-      <h4 className="text-center font-semibold text-xl whitespace-normal">
-        {alt}
-      </h4>
+      <a href={link} target="_blank" rel="noopener noreferrer">
+        <h4 className="text-center font-semibold text-xl whitespace-normal hover:underline underline-offset-4">
+          {alt}
+        </h4>
+      </a>
     </div>
   );
 }
