@@ -69,7 +69,7 @@ export default function About() {
   return (
     <div className="max-w-7xl mx-auto px-4 md:px-8 xl:px-0 md:h-full flex items-center">
       <div className="grid grid-cols-12 gap-7">
-        <div className="col-span-12 md:col-span-4 px-10 md:px-0 mb-10 mt-36 md:m-0 flex items-center justify-center">
+        <div className="col-span-12 md:col-span-4 px-10 2xl:px-0 mb-10 mt-36 md:m-0 flex items-center justify-center">
           <img
             src={profile}
             alt="Sebastian Varona Photo"

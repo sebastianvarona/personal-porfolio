@@ -3,7 +3,7 @@ import React from 'react';
 export default function Experience() {
   return (
     <section className="bg-black/50 h-full">
-      <div className="max-w-7xl mx-auto px-4 md:px-8 xl:px-0 h-full flex flex-col justify-center gap-12">
+      <div className="max-w-7xl mx-auto px-4 md:px-8 2xl:px-0 h-full flex flex-col justify-center gap-12">
         <h2 className="text-6xl md:text-7xl text-center font-semibold text-purple-400 mt-36 md:m-0">
           My Experience
         </h2>

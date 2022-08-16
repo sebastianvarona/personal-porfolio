@@ -19,7 +19,19 @@ const projects = [
     alt: "Gandalf's Book (React.js - Redux)",
   },
   {
-    link: 'https://github.com/sebastianvarona/frontend-iqthink',
+    link: 'https://github.com/sebastianvarona/rick-n-morty-graphql',
+    preview_link: 'https://rick-n-morty-graphql.vercel.app/',
+    img: 'https://user-images.githubusercontent.com/77818407/184505965-4b7b92aa-4459-421f-a71c-c3ece9c2ab7e.jpeg',
+    alt: 'Rick and Morty GraphQL',
+  },
+  {
+    link: 'https://github.com/sebastianvarona/vuebook-ts',
+    preview_link: 'https://vuebook-ts.vercel.app/',
+    img: 'https://user-images.githubusercontent.com/77818407/184758502-9ed2e0e7-5580-492d-8dcb-7c250c73d522.png',
+    alt: 'VueBook (TypeScript - Vue 3 - Pinia)',
+  },
+  {
+    link: 'https://github.com/sebastianvarona/piazza-italia',
     preview_link: 'https://piazza-italia.vercel.app/',
     img: 'https://user-images.githubusercontent.com/77818407/178594792-5f91ea7d-2246-413d-b873-16fe84cc93f8.png',
     alt: 'Piazza Italia (Next.js - Redux)',
